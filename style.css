@@ -3,61 +3,16 @@
     padding:0;
     box-sizing:border-box;
 }
-.hero{
-    height:500px;
-    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-    url("images/banner.jpg");
-    background-size:cover;
-    background-position:center;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    color:white;
-}
 
-.hero-text h1{
-    font-size:50px;
-    margin-bottom:20px;
-}
-
-.hero-text p{
-    font-size:22px;
-    margin-bottom:30px;
-}
-
-.btn{
-    display:inline-block;
-    background:#28a745;
-    color:white;
-    padding:12px 30px;
-    text-decoration:none;
-    border-radius:8px;
-    font-weight:bold;
-}
-
-.btn:hover{
-    background:#218838;
-}
-.hero{
-    height:500px;
-    background:#243447;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    color:white;
-    text-align:center;
-}
 body{
     font-family:'Poppins',sans-serif;
     background:#eef2f7;
     color:#333;
 }
 
-/* ================= NAVBAR ================= */
+/* NAVBAR */
 
 .navbar{
-    width:100%;
     background:#0f172a;
     display:flex;
     justify-content:space-between;
@@ -87,231 +42,33 @@ body{
     color:#f59e0b;
 }
 
-/* ================= HEADER ================= */
+/* HERO */
 
-header{
-    padding:100px 20px;
+.hero{
+    height:500px;
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("image/banner.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     text-align:center;
-    background:linear-gradient(120deg,#1e3a8a,#2563eb);
     color:white;
 }
 
-header h1{
-    font-size:60px;
-    margin-bottom:15px;
+.hero-text h1{
+    font-size:50px;
+    margin-bottom:20px;
 }
 
-header p{
+.hero-text p{
     font-size:22px;
 }
 
-<<<<<<< HEAD
-/* Card Lapangan */
-=======
-/* ================= CARD ================= */
->>>>>>> a270e90 (update)
+/* CARD */
 
 .lapangan{
-    width:90%;
-    margin:60px auto;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:30px;
-}
-
-.card{
-    background:white;
-    border-radius:18px;
-    padding:30px;
-    text-align:center;
-    transition:.4s;
-    border-top:6px solid #f59e0b;
-    box-shadow:0 10px 25px rgba(0,0,0,.12);
-}
-
-.card:hover{
-    transform:translateY(-12px);
-}
-
-.card h2{
-    color:#1e3a8a;
-    margin-bottom:15px;
-}
-
-.card p{
-    margin-bottom:25px;
-    color:#666;
-}
-
-.card a{
-    display:inline-block;
-    padding:12px 28px;
-    background:#f59e0b;
-    color:white;
-    border-radius:50px;
-    text-decoration:none;
-    transition:.3s;
-}
-
-.card a:hover{
-<<<<<<< HEAD
-    background:#15803d;
-}
-
-h1{
-    text-align:center;
-    margin:30px 0;
-}
-
-/* Form Booking Modern */
-
-form{
-    width:450px;
-    background:white;
-    margin:50px auto;
-    padding:35px;
-    border-radius:20px;
-    border-top:5px solid #22c55e;
-    box-shadow:0 10px 30px rgba(0,0,0,.12);
-}
-
-form h2{
-    text-align:center;
-    margin-bottom:25px;
-    color:#1f2937;
-=======
-    background:#d97706;
-}
-
-/* ================= FORM ================= */
-
-form{
-    width:450px;
-    max-width:90%;
-    margin:60px auto;
-    background:white;
-    padding:30px;
-    border-radius:18px;
-    box-shadow:0 10px 20px rgba(0,0,0,.12);
->>>>>>> a270e90 (update)
-}
-
-label{
-    display:block;
-    margin-top:15px;
-<<<<<<< HEAD
-    margin-bottom:6px;
-    font-weight:600;
-    color:#374151;
-=======
-    margin-bottom:8px;
-    font-weight:600;
->>>>>>> a270e90 (update)
-}
-
-input,
-select{
-    width:100%;
-<<<<<<< HEAD
-    padding:12px 15px;
-    border:2px solid #e5e7eb;
-    border-radius:10px;
-    background:#f9fafb;
-    font-size:15px;
-    transition:.3s;
-=======
-    padding:12px;
-    border:1px solid #ccc;
-    border-radius:10px;
-    outline:none;
->>>>>>> a270e90 (update)
-}
-
-input:focus,
-select:focus{
-<<<<<<< HEAD
-    outline:none;
-    border-color:#22c55e;
-    background:white;
-    box-shadow:0 0 10px rgba(34,197,94,.2);
-=======
-    border:2px solid #2563eb;
->>>>>>> a270e90 (update)
-}
-
-button{
-    width:100%;
-    margin-top:25px;
-    padding:14px;
-    border:none;
-<<<<<<< HEAD
-    border-radius:12px;
-    background:linear-gradient(135deg,#22c55e,#16a34a);
-    color:white;
-    font-size:17px;
-    font-weight:bold;
-    cursor:pointer;
-    transition:.3s;
-}
-
-button:hover{
-    transform:translateY(-3px);
-    box-shadow:0 8px 20px rgba(34,197,94,.35);
-}
-
-#hasil{
-    width:450px;
-    margin:20px auto;
-    padding:15px;
-    text-align:center;
-    background:white;
-    border-radius:12px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
-    font-size:18px;
-}
-
-/* Tentang */
-
-.tentang{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:30px;
-    padding:50px;
-}
-
-.tentang .card{
-    width:320px;
-    min-height:280px;
-    background:white;
-    border-radius:15px;
-    padding:25px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
-=======
-    border-radius:10px;
-    background:#2563eb;
-    color:white;
-    cursor:pointer;
-    font-size:17px;
->>>>>>> a270e90 (update)
-    transition:.3s;
-}
-
-button:hover{
-    background:#1d4ed8;
-}
-
-#hasil{
-    margin:25px;
-    text-align:center;
-    font-size:18px;
-    color:#1e3a8a;
-    font-weight:bold;
-}
-
-/* ================= TENTANG ================= */
-
-.tentang{
     width:90%;
     margin:60px auto;
     display:grid;
@@ -319,77 +76,36 @@ button:hover{
     gap:30px;
 }
 
-.tentang .card{
-    border:none;
-    border-left:6px solid #2563eb;
-}
-
-.tentang h2{
-    color:#2563eb;
-    margin-bottom:15px;
-}
-
-.tentang p{
-    text-align:justify;
-<<<<<<< HEAD
-}
-<<<<<<< HEAD
-
-/* Footer */
-
-footer{
-    background:#1f2937;
-=======
-    line-height:1.8;
-}
-
-/* ================= FOOTER ================= */
-
-footer{
-    background:#0f172a;
->>>>>>> a270e90 (update)
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:60px;
-<<<<<<< HEAD
-=======
-.lapangan{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    flex-wrap:wrap;
-    padding:50px;
-}
-
 .card{
-    width:320px;
     background:white;
     border-radius:15px;
     overflow:hidden;
-    box-shadow:0 5px 15px rgba(0,0,0,.2);
-    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
     transition:.3s;
+    text-align:center;
 }
 
 .card:hover{
     transform:translateY(-8px);
-    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
 }
+
 .card img{
     width:100%;
     height:220px;
     object-fit:cover;
 }
+
 .card h2{
-    margin:15px 0;
-    color:#222;
+    margin:18px 0 10px;
+    color:#1e3a8a;
 }
+
 .card p{
-    color:#666;
-    font-size:18px;
     margin-bottom:20px;
+    color:#555;
 }
+
 .card a{
     display:inline-block;
     margin-bottom:20px;
@@ -403,7 +119,97 @@ footer{
 
 .card a:hover{
     background:#1d7f33;
->>>>>>> 2a522ed (update)
-=======
->>>>>>> a270e90 (update)
+}
+
+/* FORM */
+
+form{
+    width:450px;
+    max-width:90%;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+input,
+select{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    outline:none;
+}
+
+input:focus,
+select:focus{
+    border:2px solid #2563eb;
+}
+
+button{
+    width:100%;
+    margin-top:20px;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+#hasil{
+    width:450px;
+    max-width:90%;
+    margin:20px auto;
+    text-align:center;
+    font-weight:bold;
+    color:#2563eb;
+}
+
+/* TENTANG */
+
+.tentang{
+    width:90%;
+    margin:60px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.tentang .card{
+    padding:25px;
+    border-left:5px solid #2563eb;
+}
+
+.tentang h2{
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+.tentang p{
+    line-height:1.7;
+    text-align:justify;
+}
+
+/* FOOTER */
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
 }
