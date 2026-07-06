@@ -331,3 +331,31 @@ footer{
     padding:20px;
     margin-top:40px;
 }
+#hasil{
+    display:none;
+    width:600px;
+    max-width:90%;
+    margin:30px auto;
+    background:#fff;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    text-align:center;
+    border-left:6px solid #28a745;
+}
+
+#hasil h2{
+    color:#28a745;
+    margin-bottom:20px;
+    font-size:24px;
+}
+
+#hasil p{
+    margin-bottom:10px;
+    font-size:16px;
+    color:#333;
+}
+
+#hasil p b{
+    color:#1e3a8a;
+}
