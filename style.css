@@ -95,6 +95,7 @@ body{
     color:white;
 }
 
+
 .hero-text h1{
     font-size:50px;
     margin-bottom:20px;
@@ -281,4 +282,52 @@ button:hover{
 
 .wa:hover{
     transform:scale(1.1);
+}
+header{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:36px;
+    margin-bottom:10px;
+    color:#f59e0b;
+}
+
+header p{
+    font-size:18px;
+    color:#e2e8f0;
+}
+
+.tentang{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.tentang .card{
+    padding:30px;
+    text-align:left;
+}
+
+.tentang .card h2{
+    margin-bottom:15px;
+}
+
+.tentang .card p{
+    line-height:1.7;
+    color:#555;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
 }
