@@ -166,3 +166,36 @@ footer{
     padding:20px;
     margin-top:60px;
 }
+/* Tentang */
+
+.tentang{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:50px;
+}
+
+.tentang .card{
+    width:320px;
+    min-height:280px;
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.tentang .card:hover{
+    transform:translateY(-8px);
+}
+
+.tentang h2{
+    color:#1f2937;
+    margin-bottom:15px;
+}
+
+.tentang p{
+    line-height:1.8;
+    text-align:justify;
+}
