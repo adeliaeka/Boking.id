@@ -185,23 +185,82 @@ button:hover{
 
 .kontak{
     width:90%;
+    max-width:1200px;
     margin:60px auto;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:30px;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
 }
 
 .kontak .card{
+    background:#fff;
     padding:30px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.kontak .card:hover{
+    transform:translateY(-8px);
+}
+
+.kontak h2{
+    color:#1e40af;
+    margin-bottom:18px;
+    font-size:30px;
+}
+
+.kontak p{
+    color:#555;
+    line-height:1.8;
+    font-size:18px;
+}
+.hero-kontak{
+    height:280px;
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url(image/banner.jpg);
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
     text-align:center;
 }
 
-.kontak .card h2{
-    color:#2563eb;
+.hero-kontak h1{
+    font-size:50px;
     margin-bottom:15px;
 }
 
-.kontak .card p{
-    color:#555;
-    line-height:1.8;
+.hero-kontak p{
+    font-size:22px;
+}
+.sosial{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+.sosial .card{
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.sosial li{
+    list-style:none;
+    margin:15px 0;
+    font-size:18px;
+}
+form{
+    width:700px;
+    max-width:90%;
+    margin:50px auto;
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
