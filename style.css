@@ -262,6 +262,7 @@ button:hover{
     line-height:1.8;
     text-align:justify;
 }
+<<<<<<< HEAD
 
 /* Footer */
 
@@ -271,4 +272,55 @@ footer{
     text-align:center;
     padding:20px;
     margin-top:60px;
+=======
+.lapangan{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:50px;
+}
+
+.card{
+    width:320px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+.card h2{
+    margin:15px 0;
+    color:#222;
+}
+.card p{
+    color:#666;
+    font-size:18px;
+    margin-bottom:20px;
+}
+.card a{
+    display:inline-block;
+    margin-bottom:20px;
+    padding:12px 25px;
+    background:#28a745;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.card a:hover{
+    background:#1d7f33;
+>>>>>>> 2a522ed (update)
 }
