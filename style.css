@@ -1,3 +1,7 @@
+.hero{
+    background: url("image/lapangan.jpg");
+}
+
 *{
     margin:0;
     padding:0;
