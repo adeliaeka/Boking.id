@@ -39,6 +39,15 @@
 .btn:hover{
     background:#218838;
 }
+.hero{
+    height:500px;
+    background:#243447;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
 body{
     font-family:Arial, Helvetica, sans-serif;
     background:#f4f4f4;
