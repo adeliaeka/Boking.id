@@ -60,7 +60,7 @@ header p{
     font-size:20px;
 }
 
-/* Card */
+/* Card Lapangan */
 
 .lapangan{
     display:flex;
@@ -104,68 +104,87 @@ header p{
 .card a:hover{
     background:#15803d;
 }
+
 h1{
-    text-align: center;
-    margin: 30px 0;
+    text-align:center;
+    margin:30px 0;
 }
 
-/* Form */
+/* Form Booking Modern */
 
 form{
-    width:400px;
+    width:450px;
     background:white;
-    margin:40px auto;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    margin:50px auto;
+    padding:35px;
+    border-radius:20px;
+    border-top:5px solid #22c55e;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+form h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#1f2937;
 }
 
 label{
     display:block;
     margin-top:15px;
-    font-weight:bold;
+    margin-bottom:6px;
+    font-weight:600;
+    color:#374151;
 }
 
 input,
 select{
     width:100%;
-    padding:10px;
-    margin-top:8px;
-    border:1px solid #ccc;
-    border-radius:8px;
+    padding:12px 15px;
+    border:2px solid #e5e7eb;
+    border-radius:10px;
+    background:#f9fafb;
+    font-size:15px;
+    transition:.3s;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border-color:#22c55e;
+    background:white;
+    box-shadow:0 0 10px rgba(34,197,94,.2);
 }
 
 button{
     width:100%;
-    margin-top:20px;
-    padding:12px;
+    margin-top:25px;
+    padding:14px;
     border:none;
-    background:#22c55e;
+    border-radius:12px;
+    background:linear-gradient(135deg,#22c55e,#16a34a);
     color:white;
-    font-size:18px;
-    border-radius:8px;
+    font-size:17px;
+    font-weight:bold;
     cursor:pointer;
+    transition:.3s;
 }
 
 button:hover{
-    background:#15803d;
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(34,197,94,.35);
 }
 
 #hasil{
+    width:450px;
+    margin:20px auto;
+    padding:15px;
     text-align:center;
-    margin:20px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
     font-size:18px;
 }
 
-/* Footer */
-
-footer{
-    background:#1f2937;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:60px;
-}
 /* Tentang */
 
 .tentang{
@@ -198,4 +217,14 @@ footer{
 .tentang p{
     line-height:1.8;
     text-align:justify;
+}
+
+/* Footer */
+
+footer{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:60px;
 }
