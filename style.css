@@ -124,99 +124,84 @@ body{
 /* FORM */
 
 form{
-    width:450px;
+    width:600px;
     max-width:90%;
-    margin:50px auto;
-    background:white;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    margin:60px auto;
+    background:#fff;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
 
 label{
     display:block;
-    margin-top:15px;
-    margin-bottom:8px;
-    font-weight:bold;
+    margin:15px 0 8px;
+    font-weight:600;
+    color:#1e293b;
 }
 
 input,
-select{
+select,
+textarea{
     width:100%;
     padding:12px;
-    border:1px solid #ccc;
-    border-radius:8px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    font-size:16px;
     outline:none;
+    transition:.3s;
 }
 
 input:focus,
-select:focus{
-    border:2px solid #2563eb;
+select:focus,
+textarea:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 8px rgba(37,99,235,.25);
+}
+
+textarea{
+    min-height:120px;
+    resize:vertical;
 }
 
 button{
     width:100%;
-    margin-top:20px;
+    margin-top:25px;
     padding:14px;
     border:none;
-    border-radius:8px;
+    border-radius:10px;
     background:#2563eb;
     color:white;
-    font-size:16px;
+    font-size:17px;
+    font-weight:bold;
     cursor:pointer;
+    transition:.3s;
 }
 
 button:hover{
     background:#1d4ed8;
+    transform:translateY(-2px);
 }
 
-#hasil{
-    width:450px;
-    max-width:90%;
-    margin:20px auto;
-    text-align:center;
-    font-weight:bold;
-    color:#2563eb;
-}
-
-/* TENTANG */
-
-.tentang{
+.kontak{
     width:90%;
     margin:60px auto;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
     gap:30px;
 }
 
-.tentang .card{
-    padding:25px;
-    border-left:5px solid #2563eb;
-}
-
-.tentang h2{
-    margin-bottom:15px;
-    color:#2563eb;
-}
-
-.tentang p{
-    line-height:1.7;
-    text-align:justify;
-}
-
-/* FOOTER */
-
-footer{
-    background:#0f172a;
-    color:white;
+.kontak .card{
+    padding:30px;
     text-align:center;
-    padding:20px;
-    margin-top:50px;
 }
-textarea{
-    width:100%;
-    padding:12px;
-    border:1px solid #ccc;
-    border-radius:8px;
-    resize:vertical;
+
+.kontak .card h2{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.kontak .card p{
+    color:#555;
+    line-height:1.8;
 }
