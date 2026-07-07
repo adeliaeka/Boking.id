@@ -632,7 +632,7 @@ body {
 .facility-tile:hover {
     transform: translateY(-3px) scale(1.02);
     border-color: var(--cyan);
-    box-shadow: 0 8px 24px rgba(55, 230, 230, 0.15);
+    box-shadow: 0 8px 24px rgba(6, 21, 236, 0.15);
 }
 
 .facility-ico {
