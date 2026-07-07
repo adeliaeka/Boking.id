@@ -360,13 +360,13 @@ footer{
     color:#1e3a8a;
 }
 :root {
-    --pitch: #0B2415;
-    --pitch-2: #123420;
-    --line: #234B30;
-    --lime: #C6F135;
-    --amber: #FFB627;
-    --ink: #F4F6F1;
-    --ink-dim: #A9C2AE;
+    --pitch: #10131C;
+    --pitch-2: #181D2B;
+    --line: #2A3145;
+    --cyan: #37E6E6;
+    --orange: #FF7A3D;
+    --ink: #F5F7FA;
+    --ink-dim: #8D96AC;
 }
 
 * {
@@ -411,7 +411,7 @@ body {
 
 .logo-mark {
     display: inline-flex;
-    filter: drop-shadow(0 0 6px rgba(198, 241, 53, 0.4));
+    filter: drop-shadow(0 0 6px rgba(55, 230, 230, 0.45));
 }
 
 .navbar ul {
@@ -438,7 +438,7 @@ body {
     bottom: 0;
     width: 0%;
     height: 2px;
-    background: var(--lime);
+    background: var(--orange);
     transition: width 0.25s ease;
 }
 
@@ -460,8 +460,8 @@ body {
     background:
         repeating-linear-gradient(
             115deg,
-            rgba(255, 255, 255, 0.025) 0px,
-            rgba(255, 255, 255, 0.025) 2px,
+            rgba(255, 255, 255, 0.02) 0px,
+            rgba(255, 255, 255, 0.02) 2px,
             transparent 2px,
             transparent 46px
         ),
@@ -475,7 +475,7 @@ body {
     inset: 0;
     background:
         linear-gradient(180deg, transparent 60%, var(--pitch) 100%),
-        radial-gradient(ellipse at 50% 0%, rgba(198, 241, 53, 0.08), transparent 60%);
+        radial-gradient(ellipse at 50% 0%, rgba(55, 230, 230, 0.10), transparent 60%);
     pointer-events: none;
 }
 
@@ -491,7 +491,7 @@ body {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.78rem;
     letter-spacing: 0.15em;
-    color: var(--amber);
+    color: var(--orange);
     margin-bottom: 1.1rem;
 }
 
@@ -505,7 +505,7 @@ body {
 }
 
 .hero h1 span {
-    color: var(--lime);
+    color: var(--cyan);
 }
 
 .hero p {
@@ -534,7 +534,7 @@ body {
 
 .card:hover {
     transform: translateY(-4px);
-    border-color: var(--lime);
+    border-color: var(--cyan);
 }
 
 .card::before {
@@ -544,7 +544,7 @@ body {
     left: 2rem;
     right: 2rem;
     height: 3px;
-    background: linear-gradient(90deg, var(--lime), var(--amber));
+    background: linear-gradient(90deg, var(--cyan), var(--orange));
     border-radius: 0 0 3px 3px;
 }
 
@@ -556,7 +556,7 @@ body {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.72rem;
     letter-spacing: 0.14em;
-    color: var(--amber);
+    color: var(--orange);
     margin-bottom: 0.8rem;
 }
 
@@ -602,7 +602,7 @@ body {
     top: 0.5em;
     width: 8px;
     height: 8px;
-    background: var(--lime);
+    background: var(--cyan);
     border-radius: 2px;
     transform: rotate(45deg);
 }
@@ -631,8 +631,8 @@ body {
 
 .facility-tile:hover {
     transform: translateY(-3px) scale(1.02);
-    border-color: var(--lime);
-    box-shadow: 0 8px 24px rgba(198, 241, 53, 0.12);
+    border-color: var(--cyan);
+    box-shadow: 0 8px 24px rgba(55, 230, 230, 0.15);
 }
 
 .facility-ico {
