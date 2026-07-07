@@ -4,30 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang Kami - SportField Booking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <nav class="navbar">
-    <div class="logo">⚽ SportField</div>
+    <div class="logo"><span class="logo-mark">⚽</span> SportField</div>
 
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="tentang.html" class="active">Tentang</a></li>
         <li><a href="kontak.html">Kontak</a></li>
     </ul>
 </nav>
 
-<header>
-    <h1>Tentang SportField Booking</h1>
-    <p>Platform Pemesanan Lapangan Olahraga Secara Online</p>
+<header class="hero">
+    <div class="hero-inner">
+        <span class="eyebrow">— Profil Platform —</span>
+        <h1>Tentang <span>SportField</span> Booking</h1>
+        <p>Platform Pemesanan Lapangan Olahraga Secara Online</p>
+    </div>
 </header>
 
 <section class="tentang">
 
     <div class="card">
-        <h2>📖 Tentang Website</h2>
+        <div class="card-tag">INFO</div>
+        <h2><span class="ico">📖</span> Tentang Website</h2>
         <p>
             SportField Booking merupakan website yang dirancang untuk
             memudahkan pengguna dalam melakukan pemesanan lapangan olahraga
@@ -37,26 +44,45 @@
     </div>
 
     <div class="card">
-        <h2>🎯 Tujuan Website</h2>
-        <p>
-            • Mempermudah proses pemesanan lapangan.<br><br>
-            • Menghemat waktu pelanggan.<br><br>
-            • Menyediakan informasi harga setiap lapangan.<br><br>
-            • Memberikan pengalaman booking yang praktis dan cepat.
-        </p>
+        <div class="card-tag">TUJUAN</div>
+        <h2><span class="ico">🎯</span> Tujuan Website</h2>
+        <ul class="goal-list">
+            <li>Mempermudah proses pemesanan lapangan.</li>
+            <li>Menghemat waktu pelanggan.</li>
+            <li>Menyediakan informasi harga setiap lapangan.</li>
+            <li>Memberikan pengalaman booking yang praktis dan cepat.</li>
+        </ul>
     </div>
 
-    <div class="card">
-        <h2>🏆 Fasilitas</h2>
-        <p>
-            ⚽ Lapangan Futsal<br><br>
-            🏸 Lapangan Badminton<br><br>
-            🏀 Lapangan Basket<br><br>
-            🏐 Lapangan Voli<br><br>
-            🎾 Lapangan Padel<br><br>
-
-            📅 Booking Online
-        </p>
+    <div class="card card-wide">
+        <div class="card-tag">FASILITAS</div>
+        <h2><span class="ico">🏆</span> Fasilitas</h2>
+        <div class="facility-grid">
+            <div class="facility-tile">
+                <span class="facility-ico">⚽</span>
+                <span>Lapangan Futsal</span>
+            </div>
+            <div class="facility-tile">
+                <span class="facility-ico">🏸</span>
+                <span>Lapangan Badminton</span>
+            </div>
+            <div class="facility-tile">
+                <span class="facility-ico">🏀</span>
+                <span>Lapangan Basket</span>
+            </div>
+            <div class="facility-tile">
+                <span class="facility-ico">🏐</span>
+                <span>Lapangan Voli</span>
+            </div>
+            <div class="facility-tile">
+                <span class="facility-ico">🎾</span>
+                <span>Lapangan Padel</span>
+            </div>
+            <div class="facility-tile">
+                <span class="facility-ico">📅</span>
+                <span>Booking Online</span>
+            </div>
+        </div>
     </div>
 
 </section>
