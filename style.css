@@ -835,3 +835,7 @@ footer {
     color:#666;
     line-height:1.6;
 }
+.footer p{
+    margin:0;
+    letter-spacing:1px;
+}
