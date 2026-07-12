@@ -814,3 +814,24 @@ footer {
     font-size: 1.05rem;
     margin-bottom: 1.6rem;
 }
+.hero.kecil{
+     height:55vh;
+}
+
+.footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:60px;
+}
+
+.footer p{
+    margin:0;
+    letter-spacing:1px;
+}
+
+.card-body p{
+    color:#666;
+    line-height:1.6;
+}
