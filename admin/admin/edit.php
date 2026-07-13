@@ -140,3 +140,14 @@ a:hover{
 <?php if($data['lapangan']=="Futsal") echo "selected"; ?>>
 Futsal
 </option>
+
+<option value="Badminton"
+<?php if($data['lapangan']=="Badminton") echo "selected"; ?>>
+Badminton
+</option>
+
+</select>
+
+<label>Tanggal Booking</label>
+<input type="date" name="tanggal"
+value="<?php echo $data['tanggal']; ?>" required>
