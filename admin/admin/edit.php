@@ -119,3 +119,24 @@ a{
 a:hover{
     color:red;
 }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h2>Edit Booking Lapangan</h2>
+
+<form method="POST">
+
+<label>Nama</label>
+<input type="text" name="nama" value="<?php echo $data['nama']; ?>" required>
+
+<label>Lapangan</label>
+<select name="lapangan">
+
+<option value="Futsal"
+<?php if($data['lapangan']=="Futsal") echo "selected"; ?>>
+Futsal
+</option>
