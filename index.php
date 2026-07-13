@@ -28,7 +28,7 @@
             <img src="image/lapangan.jpg" alt="Lapangan Olahraga" class="hero-img">
             <div class="hero-overlay"></div>
             <div class="hero-text">
-                <span class="eyebrow">— Booking Instan, Tanpa Ribet —</span>
+                <span class="eyebrow">—Pesan Lapangan Cepat —</span>
                 <h1>Booking <span>Lapangan Olahraga</span> Jadi Lebih Mudah</h1>
                 <p>Futsal, Badminton, Basket, Voli, dan Padel dalam satu aplikasi.</p>
                 <a href="booking.php" class="btn-cta">Cari Lapangan</a>
