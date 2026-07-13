@@ -159,3 +159,11 @@ value="<?php echo $data['jam']; ?>" required>
 <label>Durasi (Jam)</label>
 <input type="number" name="durasi"
 value="<?php echo $data['durasi']; ?>" required>
+
+<label>No. HP</label>
+<input type="text" name="no_hp"
+value="<?php echo $data['no_hp']; ?>" required>
+
+<button type="submit" name="update">
+Update Booking
+</button>
