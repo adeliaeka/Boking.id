@@ -101,7 +101,7 @@
 
                  <div class="card-body">
                      <h2>Free WiFi</h2>
-                     <p>Stay connected dengan akses WiFi gratis yang</p>
+                     <p>Stay connected dengan akses WiFi gratis yang cepat dan stabil </p>
                  </div>
              </div>
 
