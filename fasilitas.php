@@ -100,8 +100,8 @@
                  </div>
 
                  <div class="card-body">
-                     <h2>WiFi Gratis</h2>
-                     <p>Pengunjung dapat menikmati akses internet gratis.</p>
+                     <h2>Free WiFi</h2>
+                     <p>Stay connected dengan akses WiFi gratis yang</p>
                  </div>
              </div>
 
