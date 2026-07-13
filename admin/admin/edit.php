@@ -30,7 +30,7 @@ if (isset($_POST['update'])) {
         no_hp='$no_hp'
         WHERE id='$id'
     ");
-    
+
      if ($update) {
         echo "<script>
                 alert('Data booking berhasil diupdate!');
@@ -41,3 +41,32 @@ if (isset($_POST['update'])) {
     }
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edit Booking Lapangan</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+}
+
+.container{
+    width:500px;
+    margin:40px auto;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
