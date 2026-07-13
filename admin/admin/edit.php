@@ -30,3 +30,14 @@ if (isset($_POST['update'])) {
         no_hp='$no_hp'
         WHERE id='$id'
     ");
+    
+     if ($update) {
+        echo "<script>
+                alert('Data booking berhasil diupdate!');
+                window.location='data_booking.php';
+              </script>";
+    } else {
+        echo "<script>alert('Data gagal diupdate!');</script>";
+    }
+}
+?>
