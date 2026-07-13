@@ -93,3 +93,29 @@ input,select{
     border:1px solid #ccc;
     border-radius:5px;
 }
+button{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    background:#28a745;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+button:hover{
+    background:#218838;
+}
+
+a{
+    display:block;
+    text-align:center;
+    margin-top:15px;
+    text-decoration:none;
+    color:#555;
+}
+
+a:hover{
+    color:red;
+}
