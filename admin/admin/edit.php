@@ -167,3 +167,12 @@ value="<?php echo $data['no_hp']; ?>" required>
 <button type="submit" name="update">
 Update Booking
 </button>
+
+<a href="data_booking.php">← Kembali</a>
+
+</form>
+
+</div>
+
+</body>
+</html>
