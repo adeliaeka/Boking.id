@@ -53,7 +53,7 @@
 
                  <div class="card-body">
                      <h2>Area Parkir Luas</h2>
-                     <p>Area parkir aman untuk motor maupun mobil.</p>
+                     <p>Area parkir yang luas, aman, dan nyaman untuk mobil maupun motor.</p>
                  </div>
              </div>
 
@@ -65,7 +65,8 @@
 
                  <div class="card-body">
                      <h2>Mushola</h2>
-                     <p>Mushola bersih dan nyaman bagi pengunjung.</p>
+                     <p>Hadir dengan fasilitas mushola yang nyaman, bersih, dan
+                        terawat untuk menunjang kenyamanan beribadah.</p>
                  </div>
              </div>
 
