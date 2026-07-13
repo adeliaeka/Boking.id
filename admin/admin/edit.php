@@ -70,3 +70,14 @@ body{
     border-radius:10px;
     box-shadow:0 5px 15px rgba(0,0,0,.2);
 }
+h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-top:10px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
