@@ -151,3 +151,11 @@ Badminton
 <label>Tanggal Booking</label>
 <input type="date" name="tanggal"
 value="<?php echo $data['tanggal']; ?>" required>
+
+<label>Jam Booking</label>
+<input type="time" name="jam"
+value="<?php echo $data['jam']; ?>" required>
+
+<label>Durasi (Jam)</label>
+<input type="number" name="durasi"
+value="<?php echo $data['durasi']; ?>" required>
