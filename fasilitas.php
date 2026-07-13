@@ -114,7 +114,7 @@
                  <div class="card-body">
                      <h2>Tribun Penonton</h2>
                      <p>Enjoy every match from our comfortable spectator area,
-                        dirancang untuk memberikan view terbaik bagi.</p>
+                        dirancang untuk memberikan view terbaik bagi keluarga dan para supporter.</p>
                  </div>
              </div>
 
