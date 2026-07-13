@@ -88,8 +88,8 @@
                  </div>
 
                  <div class="card-body">
-                     <h2>Toilet & Kamar Bilas</h2>
-                     <p>Toilet bersih dan kamar bilas tersedia.</p>
+                     <h2>Toilet & Shower Room</h2>
+                     <p>Clean toilet dan shower room yang nyaman</p>
                  </div>
              </div>
 
