@@ -113,7 +113,8 @@
 
                  <div class="card-body">
                      <h2>Tribun Penonton</h2>
-                     <p>Tempat duduk nyaman untuk keluarga dan supporter.</p>
+                     <p>Enjoy every match from our comfortable spectator area,
+                        dirancang .</p>
                  </div>
              </div>
 
