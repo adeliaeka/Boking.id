@@ -89,7 +89,8 @@
 
                  <div class="card-body">
                      <h2>Toilet & Shower Room</h2>
-                     <p>Clean toilet dan shower room yang nyaman</p>
+                     <p>Clean toilet dan shower room yang nyaman,
+                        siap digunakan sebelum maupun setelah berolahraga.</p>
                  </div>
              </div>
 
