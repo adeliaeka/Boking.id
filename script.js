@@ -7,7 +7,7 @@ document.getElementById("bookingForm").addEventListener("submit", function(e){
     let tanggal = document.getElementById("tanggal").value;
     let jam = document.getElementById("jam").value;
 
-    document.getElementById("hasil").innerHTML = `
+    document.getElementById("hasil").innerphp = `
     <h2>✅ Booking Berhasil</h2>
     <p><b>Nama :</b> ${nama}</p>
     <p><b>Lapangan :</b> ${lapangan}</p>

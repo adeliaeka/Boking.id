@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SportField Booking</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <div class="logo"><span class="logo-mark">⚽</span> SportField</div>
+
+            <ul>
+                <li><a href="index.php" class="active">Home</a></li>
+                <li><a href="fasilitas.php">Fasilitas</a></li>
+                <li><a href="tentang.php">Tentang</a></li>
+                <li><a href="kontak.php">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <img src="image/lapangan.jpg" alt="Lapangan Olahraga" class="hero-img">
+            <div class="hero-overlay"></div>
+            <div class="hero-text">
+                <span class="eyebrow">— Booking Instan, Tanpa Ribet —</span>
+                <h1>Booking <span>Lapangan Olahraga</span> Jadi Lebih Mudah</h1>
+                <p>Futsal, Badminton, Basket, Voli, dan Padel dalam satu aplikasi.</p>
+                <a href="booking.php" class="btn-cta">Cari Lapangan</a>
+            </div>
+        </section>
+
+        <section class="lapangan">
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="image/futsal.webp" alt="Lapangan Futsal">
+                    <span class="card-badge">⚽</span>
+                </div>
+                <div class="card-body">
+                    <h2>Lapangan Futsal</h2>
+                    <p class="price">Rp100.000 <span>/ Jam</span></p>
+                    <a href="booking.php" class="btn-book">Booking Sekarang</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="image/badminton.jpeg" alt="Lapangan Badminton">
+                    <span class="card-badge">🏸</span>
+                </div>
+                <div class="card-body">
+                    <h2>Lapangan Badminton</h2>
+                    <p class="price">Rp50.000 <span>/ Jam</span></p>
+                    <a href="booking.php" class="btn-book">Booking Sekarang</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="image/basket.webp" alt="Lapangan Basket">
+                    <span class="card-badge">🏀</span>
+                </div>
+                <div class="card-body">
+                    <h2>Lapangan Basket</h2>
+                    <p class="price">Rp120.000 <span>/ Jam</span></p>
+                    <a href="booking.php" class="btn-book">Booking Sekarang</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="image/voli.webp" alt="Lapangan Voli">
+                    <span class="card-badge">🏐</span>
+                </div>
+                <div class="card-body">
+                    <h2>Lapangan Voli</h2>
+                    <p class="price">Rp80.000 <span>/ Jam</span></p>
+                    <a href="booking.php" class="btn-book">Booking Sekarang</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="image/padel.webp" alt="Lapangan Padel">
+                    <span class="card-badge">🎾</span>
+                </div>
+                <div class="card-body">
+                    <h2>Lapangan Padel</h2>
+                    <p class="price">Rp150.000 <span>/ Jam</span></p>
+                    <a href="booking.php" class="btn-book">Booking Sekarang</a>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tentang Kami - SportField Booking</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <div class="logo"><span class="logo-mark">⚽</span> SportField</div>
+
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="fasilitas.php">Fasilitas</a></li>
+                <li><a href="tentang.php" class="active">Tentang</a></li>
+                <li><a href="kontak.php">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <header class="page-header">
+            <div class="page-header-inner">
+                <span class="eyebrow">— Profil Platform —</span>
+                <h1>Tentang <span>SportField</span> Booking</h1>
+                <p>Platform Pemesanan Lapangan Olahraga Secara Online</p>
+            </div>
+        </header>
+
+        <section class="tentang">
+
+            <div class="card">
+                <div class="card-tag">INFO</div>
+                <h2><span class="ico">📖</span> Tentang Website</h2>
+                <p>
+                    SportField Booking adalah platform digital yang menghadirkan a seamless booking experience
+                    untuk kebutuhan reservasi lapangan olahraga. Jelajahi berbagai pilihan lapangan berkualitas,
+                    cek ketersediaan jadwal secara real-time, dan lakukan pemesanan dengan
+                    cepat melalui sistem yang aman, praktis, dan mudah digunakan.
+                    Because every great match begins with a great booking
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-tag">TUJUAN</div>
+                <h2><span class="ico">🎯</span> Tujuan Website</h2>
+                <ul class="goal-list">
+                    <li>Memudahkan pelanggan melakukan reservasi lapangan olahraga kapan saja dan di mana saja.</li>
+                    <li>Menyediakan informasi harga, fasilitas, serta jadwal lapangan secara lengkap dan real-time.</li>
+                    <li>Mengoptimalkan proses booking melalui sistem yang cepat, aman, dan mudah digunakan.</li>
+                    <li>Menghadirkan the best booking experience untuk memberikan kenyamanan dan kepuasan bagi setiap pelanggan.</li>
+                </ul>
+            </div>
+
+            <div class="card card-wide">
+                <div class="card-tag">FASILITAS</div>
+                <h2><span class="ico">🏆</span> Fasilitas</h2>
+                <div class="facility-grid">
+                    <div class="facility-tile">
+                        <span class="facility-ico">⚽</span>
+                        <span>Lapangan Futsal</span>
+                    </div>
+                    <div class="facility-tile">
+                        <span class="facility-ico">🏸</span>
+                        <span>Lapangan Badminton</span>
+                    </div>
+                    <div class="facility-tile">
+                        <span class="facility-ico">🏀</span>
+                        <span>Lapangan Basket</span>
+                    </div>
+                    <div class="facility-tile">
+                        <span class="facility-ico">🏐</span>
+                        <span>Lapangan Voli</span>
+                    </div>
+                    <div class="facility-tile">
+                        <span class="facility-ico">🎾</span>
+                        <span>Lapangan Padel</span>
+                    </div>
+                    <div class="facility-tile">
+                        <span class="facility-ico">📅</span>
+                        <span>Booking Online</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            <p>© 2026 SportField Booking | Kelompok 4</p>
+        </footer>
+
+    </body>
+</php>
