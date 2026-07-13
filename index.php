@@ -68,7 +68,7 @@
                 </div>
                 <div class="card-body">
                     <h2>Lapangan Basket</h2>
-                    <p class="price">Rp120.000 <span>/ Jam</span></p>
+                    <p class="price">Rp160.000 <span>/ Jam</span></p>
                     <a href="booking.php" class="btn-book">Booking Sekarang</a>
                 </div>
             </div>
