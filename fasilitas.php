@@ -76,8 +76,8 @@
                  </div>
 
                  <div class="card-body">
-                     <h2>Kantin</h2>
-                     <p>Menyediakan makanan dan minuman setelah bermain.</p>
+                     <h2>Food Corner</h2>
+                     <p>Refuel, relax, and recharge dengan pilihan makanan dan minuman</p>
                  </div>
              </div>
 
