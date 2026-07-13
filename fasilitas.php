@@ -77,7 +77,8 @@
 
                  <div class="card-body">
                      <h2>Food Corner</h2>
-                     <p>Refuel, relax, and recharge dengan pilihan makanan dan minuman</p>
+                     <p>Refuel, relax, and recharge dengan pilihan makanan dan minuman 
+                        yang siap menemani setiap momen setelah bermain.</p>
                  </div>
              </div>
 
