@@ -101,7 +101,8 @@
 
                  <div class="card-body">
                      <h2>Free WiFi</h2>
-                     <p>Stay connected dengan akses WiFi gratis yang cepat dan stabil </p>
+                     <p>Stay connected dengan akses WiFi gratis yang cepat dan stabil
+                        selama berada di area SportField. </p>
                  </div>
              </div>
 
