@@ -31,7 +31,6 @@
                 <span class="eyebrow">—Pesan Lapangan Cepat , Bermain Tanpa Hambatan. —</span>
                 <h1>Booking <span>Lapangan Olahraga</span> Jadi Lebih Mudah</h1>
                 <p>Futsal, Badminton, Basket, Voli, dan Padel dalam satu aplikasi.</p>
-                <a href="booking.php" class="btn-cta">Cari Lapangan</a>
             </div>
         </section>
 
